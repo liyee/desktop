@@ -1,0 +1,6 @@
+D:\vs\Liberators\LiberatorsClassLibrary\bin\Debug\LiberatorsClassLibrary.dll
+D:\vs\Liberators\LiberatorsClassLibrary\bin\Debug\LiberatorsClassLibrary.pdb
+D:\vs\Liberators\LiberatorsClassLibrary\obj\Debug\LiberatorsClassLibrary.csproj.CoreCompileInputs.cache
+D:\vs\Liberators\LiberatorsClassLibrary\obj\Debug\LiberatorsClassLibrary.dll
+D:\vs\Liberators\LiberatorsClassLibrary\obj\Debug\LiberatorsClassLibrary.pdb
+D:\vs\Liberators\LiberatorsClassLibrary\obj\Debug\LiberatorsClassLibrary.csprojAssemblyReference.cache
