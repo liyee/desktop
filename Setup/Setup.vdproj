@@ -292,13 +292,13 @@
         "Entry"
         {
         "MsmKey" = "8:_7D02BF054AF4F23AFF4655DA7B944DD7"
-        "OwnerKey" = "8:_5BD2243F627446DF96FA841AB6170B0E"
+        "OwnerKey" = "8:_5824D1A29B274180AC1A9CBEC360751B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7D02BF054AF4F23AFF4655DA7B944DD7"
-        "OwnerKey" = "8:_5824D1A29B274180AC1A9CBEC360751B"
+        "OwnerKey" = "8:_5BD2243F627446DF96FA841AB6170B0E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -328,12 +328,6 @@
         "Entry"
         {
         "MsmKey" = "8:_8AAB2A8FA5634EE9BD2C2E509F5538C5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8B0DDD68C1A64B3C9006AFE2F0985E02"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1785,26 +1779,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B0DDD68C1A64B3C9006AFE2F0985E02"
-            {
-            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\plugins\\start.bat"
-            "TargetName" = "8:start.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_9077183535764C6496BE5AB1EC417160"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_90166356A90B47B39632744DF2B7F004"
             {
             "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\locales\\el.pak"
@@ -2692,7 +2666,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Liberators"
         "ProductCode" = "8:{515131E8-1643-42D5-BF90-A1BA2BEDEFF1}"
-        "PackageCode" = "8:{94CF79DB-F40E-4210-B8A2-98474CF2BAF5}"
+        "PackageCode" = "8:{EF78E468-E63B-4083-AAED-26009DC86C3C}"
         "UpgradeCode" = "8:{08632B58-62FF-43A9-A146-D9A9A415E790}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

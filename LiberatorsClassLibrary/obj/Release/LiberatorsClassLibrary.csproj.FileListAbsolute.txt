@@ -3,4 +3,3 @@ D:\vs\Liberators\LiberatorsClassLibrary\bin\Release\LiberatorsClassLibrary.pdb
 D:\vs\Liberators\LiberatorsClassLibrary\obj\Release\LiberatorsClassLibrary.csproj.CoreCompileInputs.cache
 D:\vs\Liberators\LiberatorsClassLibrary\obj\Release\LiberatorsClassLibrary.dll
 D:\vs\Liberators\LiberatorsClassLibrary\obj\Release\LiberatorsClassLibrary.pdb
-D:\vs\Liberators\LiberatorsClassLibrary\obj\Release\LiberatorsClassLibrary.csprojAssemblyReference.cache

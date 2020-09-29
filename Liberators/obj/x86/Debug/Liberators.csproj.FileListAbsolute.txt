@@ -81,8 +81,6 @@ D:\vs\Liberators\Liberators\bin\x86\Debug\CefSharp.WinForms.dll
 D:\vs\Liberators\Liberators\bin\x86\Debug\CefSharp.WinForms.pdb
 D:\vs\Liberators\Liberators\bin\x86\Debug\CefSharp.WinForms.XML
 D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.exe.config
-D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.exe.manifest
-D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.application
 D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.exe
 D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.pdb
 D:\vs\Liberators\Liberators\bin\x86\Debug\Newtonsoft.Json.dll
@@ -90,9 +88,6 @@ D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.Liberators.resources
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.Properties.Resources.resources
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.csproj.GenerateResource.cache
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.csproj.CoreCompileInputs.cache
-D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.TrustInfo.xml
-D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.exe.manifest
-D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.application
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.csproj.CopyComplete
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.exe
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.pdb
@@ -101,3 +96,9 @@ D:\vs\Liberators\Liberators\bin\x86\Debug\Microsoft.IdentityModel.JsonWebTokens.
 D:\vs\Liberators\Liberators\bin\x86\Debug\Microsoft.IdentityModel.Logging.dll
 D:\vs\Liberators\Liberators\bin\x86\Debug\Microsoft.IdentityModel.Tokens.dll
 D:\vs\Liberators\Liberators\bin\x86\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\vs\Liberators\Liberators\bin\x86\Debug\plugins\start.bat
+D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.exe.manifest
+D:\vs\Liberators\Liberators\bin\x86\Debug\Liberators.application
+D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.TrustInfo.xml
+D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.exe.manifest
+D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.application

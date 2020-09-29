@@ -48,7 +48,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>o3W9yDFSyTin5m2NZ4KMGilApTrDL89YowPCKm6vpB4=</dsig:DigestValue>
+        <dsig:DigestValue>mZr5jMAoQBHGEJNiTMd8YhC/HoO2+vTwxkXgKAanfR8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -112,13 +112,49 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Liberators.exe.config" size="334">
+  <file name="CefSharp.Core.pdb" size="7032832">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TMY2qxJ0+D7qGbZZ12EKCAG5jSGw3Ww8AXc9kXZFABg=</dsig:DigestValue>
+      <dsig:DigestValue>iOZ6EeAT7Lm/fIMQnXxUnt1r3qQ2CBz38rxeyEuFQ2w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CefSharp.pdb" size="507392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+ismYdbqnzLBU2pwX4oJxUMyxXz6c0199yewdsbN45k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CefSharp.WinForms.pdb" size="60928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k9XVWMJNTBnjS4vd86kWEYLCE8K0Ux0pFQtnqzHvtzs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Liberators.exe.config" size="1617">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5N76ToSqE42BTTdjyqSkaiW4rcnn9TjBl3YJBL7agR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Liberators.pdb" size="65024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZwmX8fphDfz3Govh3mEGr3bxr7GTNXAvvrHdUI6effg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="plugins\pepflashplayer.dll" size="32002616">

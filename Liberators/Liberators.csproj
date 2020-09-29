@@ -151,9 +151,6 @@
     </Compile>
     <None Include=".editorconfig" />
     <None Include="Liberators_TemporaryKey.pfx" />
-    <None Include="plugins\start.bat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

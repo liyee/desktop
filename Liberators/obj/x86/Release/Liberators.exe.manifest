@@ -41,14 +41,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Liberators.exe" size="190448">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Liberators.exe" size="189936">
       <assemblyIdentity name="Liberators" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3jRdlGsTFRHP9ESzlsTSe1u4N8LYLiq07c8tCYeiFos=</dsig:DigestValue>
+        <dsig:DigestValue>t33iFAZcI0fSL8Ljvbd7EK75yPjY5PVTGIsi3UL9aw0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -139,13 +139,13 @@
       <dsig:DigestValue>k9XVWMJNTBnjS4vd86kWEYLCE8K0Ux0pFQtnqzHvtzs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Liberators.exe.config" size="460">
+  <file name="Liberators.exe.config" size="1617">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fyjzQn/c0w5o/Fh+8IWCObkoDAGN+mD/hF6YCM8JoMI=</dsig:DigestValue>
+      <dsig:DigestValue>5N76ToSqE42BTTdjyqSkaiW4rcnn9TjBl3YJBL7agR4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Liberators.pdb" size="60928">
@@ -154,7 +154,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>d4dnYM2RAHXRKkBeMblu/b1au8IQsOPM6KDdqoGb0Kw=</dsig:DigestValue>
+      <dsig:DigestValue>HDjO+PAg/pArpjQAGm9zYH2pjoJrutTHDE11AbLwltA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="plugins\pepflashplayer.dll" size="32002616">

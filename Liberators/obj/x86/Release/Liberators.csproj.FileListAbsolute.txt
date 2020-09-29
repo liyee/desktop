@@ -101,5 +101,3 @@ D:\vs\Liberators\Liberators\bin\x86\Release\Liberators.application
 D:\vs\Liberators\Liberators\obj\x86\Release\Liberators.TrustInfo.xml
 D:\vs\Liberators\Liberators\obj\x86\Release\Liberators.exe.manifest
 D:\vs\Liberators\Liberators\obj\x86\Release\Liberators.application
-D:\vs\Liberators\Liberators\bin\x86\Release\plugins\start.bat
-D:\vs\Liberators\Liberators\obj\x86\Release\Liberators.csprojAssemblyReference.cache

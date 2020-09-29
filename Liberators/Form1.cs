@@ -13,6 +13,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Principal;
 using System.Diagnostics;
+using System.Management;
 
 namespace Liberators
 {
@@ -71,7 +72,7 @@ namespace Liberators
                 webview = new ChromiumWebBrowser(gameUrl);
                 webview.IsBrowserInitializedChanged += (s, args) =>
                 {
-                    webview.ShowDevTools();//调试模式
+                    //webview.ShowDevTools();//调试模式
                     if (webview.IsBrowserInitialized) {
                         
                         Cef.UIThreadTaskFactory.StartNew(() => {
@@ -265,11 +266,5 @@ namespace Liberators
             button1.FlatAppearance.BorderSize = 0;
         }
 
-        public static bool IsAdministrator()
-        {
-            WindowsIdentity identity = WindowsIdentity.GetCurrent();
-            WindowsPrincipal principal = new WindowsPrincipal(identity);
-            return principal.IsInRole(WindowsBuiltInRole.Administrator);
-        }
     }
 }

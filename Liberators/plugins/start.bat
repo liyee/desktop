@@ -1,1 +1,0 @@
-start /d "C:\Program Files (x86)\Liberators\" Liberators.exe
