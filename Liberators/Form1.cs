@@ -11,6 +11,8 @@ using System.Collections;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Security.Principal;
+using System.Diagnostics;
 
 namespace Liberators
 {
@@ -83,8 +85,7 @@ namespace Liberators
                 webview.FrameLoadEnd += Webview_FrameLoadEnd;
 
                 webview.Dock = DockStyle.Fill;
-                this.Controls.Add(webview);
-                
+                this.Controls.Add(webview);                
             }
             catch (Exception e2) {
                 string msg2 = "e2" + ":" + e2.Message + "^" + e2.StackTrace + "^" + e2.Source;
@@ -148,11 +149,14 @@ namespace Liberators
                 settings.CefCommandLineArgs.Add("enable-system-flash", "1"); //启用flash
                 settings.CefCommandLineArgs.Add("ppapi-flash-version", "99.0.0.999"); //设置flash插件版本
                 settings.CefCommandLineArgs.Add("ppapi-flash-path", AppDomain.CurrentDomain.BaseDirectory + "\\plugins\\pepflashplayer18.dll");
-                settings.CefCommandLineArgs.Add("enable-media-stream", "1");
+                settings.CefCommandLineArgs.Add("enable-media-stream", "1");                
 
-                var cachePath = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Liberators";
-                settings.RootCachePath = cachePath;
+                //var cachePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Liberators";
+                var cachePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Liberators";
+
+                //settings.RootCachePath = cachePath;
                 settings.CachePath = cachePath;
+
                 settings.PersistSessionCookies = true;
                 //settings.LogSeverity = LogSeverity.Disable;
                 settings.BackgroundColor = ColorToUInt(System.Drawing.Color.FromArgb(255, 14, 5, 22));
@@ -246,7 +250,8 @@ namespace Liberators
 
         private void refresh(object sender, EventArgs e)
         {
-            webview.GetBrowser().Reload();
+            //webview.GetBrowser().Reload();
+            webview.Reload(true);
             button1.BackgroundImage = global::Liberators.Properties.Resources.refresh2;
         }
 
@@ -258,6 +263,13 @@ namespace Liberators
         private void button1_MouseLeave(object sender, EventArgs e)
         {
             button1.FlatAppearance.BorderSize = 0;
+        }
+
+        public static bool IsAdministrator()
+        {
+            WindowsIdentity identity = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
         }
     }
 }

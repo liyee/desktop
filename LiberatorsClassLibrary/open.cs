@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration.Install;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Security;
 using System.ServiceProcess;
 using System.Threading.Tasks;
 
@@ -13,6 +16,7 @@ namespace LiberatorsClassLibrary
     [RunInstaller(true)]
     public partial class open : System.Configuration.Install.Installer
     {
+        Process proc = null;
         public open()
         {
             InitializeComponent();
@@ -27,9 +31,24 @@ namespace LiberatorsClassLibrary
         {
             base.OnAfterInstall(savedState);
 
-            System.Reflection.Assembly asm = System.Reflection.Assembly.GetExecutingAssembly(); 
-            string path = asm.Location.Remove(asm.Location.LastIndexOf("\\"));
-            System.Diagnostics.Process.Start(path+@"\Liberators.exe");
+            //Process.Start(System.IO.Path.GetDirectoryName(this.Context.Parameters["AssemblyPath"]) + @"\Liberators.exe");
+            //Process.Start("liberators://");
+
+        }
+
+        public override void Commit(IDictionary savedState)
+        {
+            base.Commit(savedState);
+            //System.Diagnostics.Process.Start(System.IO.Path.GetDirectoryName(Me.Context.Parameters("AssemblyPath")) + "\MyApplication.exe")
+
+            string targetDir = string.Format(Path.GetDirectoryName(this.Context.Parameters["AssemblyPath"]));//this is where testChange.bat lies
+            proc = new Process();
+            proc.StartInfo.WorkingDirectory = targetDir;
+            proc.StartInfo.FileName = "start.bat";
+            proc.StartInfo.Arguments = string.Format("10");//this is argument
+                                                           
+            proc.Start();
+            proc.WaitForExit();
         }
 
         public override void Uninstall(IDictionary savedState)

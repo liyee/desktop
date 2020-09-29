@@ -14,14 +14,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Liberators.exe.manifest" size="8890">
+    <dependentAssembly dependencyType="install" codebase="Liberators.exe.manifest" size="10473">
       <assemblyIdentity name="Liberators.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ftvGu/Hg7rutty7AQXhNUAHtAOPIxuZDrDu1fPIQSuY=</dsig:DigestValue>
+        <dsig:DigestValue>yKbh3lWxiNqhfqoHjgRwOhFdtYFEsHA7MaOD0AvXHJ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

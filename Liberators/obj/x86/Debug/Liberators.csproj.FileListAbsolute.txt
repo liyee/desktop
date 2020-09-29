@@ -97,7 +97,6 @@ D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.csproj.CopyComplete
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.exe
 D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.pdb
 D:\vs\Liberators\Liberators\bin\x86\Debug\plugins\pepflashplayer18.dll
-D:\vs\Liberators\Liberators\obj\x86\Debug\Liberators.csprojAssemblyReference.cache
 D:\vs\Liberators\Liberators\bin\x86\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\vs\Liberators\Liberators\bin\x86\Debug\Microsoft.IdentityModel.Logging.dll
 D:\vs\Liberators\Liberators\bin\x86\Debug\Microsoft.IdentityModel.Tokens.dll

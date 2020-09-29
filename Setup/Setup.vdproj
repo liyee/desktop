@@ -75,6 +75,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_20B0E529940E4D2E86598F227FA6AAE1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_23DA7D3DCC9645D79F5AB77259EECE6E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -237,12 +243,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_601318DEA6794C3BA01621B5245E14BD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_60CE5BA9C7614357A79587172F0C1C60"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -273,12 +273,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_795AF63FAE0A461688D5060DB26D2DFD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_7A8E68206999455DAE7864F15E8B1D07"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -298,13 +292,13 @@
         "Entry"
         {
         "MsmKey" = "8:_7D02BF054AF4F23AFF4655DA7B944DD7"
-        "OwnerKey" = "8:_5824D1A29B274180AC1A9CBEC360751B"
+        "OwnerKey" = "8:_5BD2243F627446DF96FA841AB6170B0E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_7D02BF054AF4F23AFF4655DA7B944DD7"
-        "OwnerKey" = "8:_5BD2243F627446DF96FA841AB6170B0E"
+        "OwnerKey" = "8:_5824D1A29B274180AC1A9CBEC360751B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -339,6 +333,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8B0DDD68C1A64B3C9006AFE2F0985E02"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_90166356A90B47B39632744DF2B7F004"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -358,6 +358,12 @@
         "Entry"
         {
         "MsmKey" = "8:_A206C2510F9949AF84F3FC8966C4F183"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A28037031593498C800F0005963144CC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -418,6 +424,12 @@
         "Entry"
         {
         "MsmKey" = "8:_B571C18DC68D4026A759A9FD418C6A43"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B70B459633714E70B0D0DE9BDB3051B7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -705,7 +717,7 @@
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:0"
         "CabType" = "3:1"
-        "Compression" = "3:3"
+        "Compression" = "3:2"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -733,7 +745,21 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_64C62C00E59C4EE0958B3C6D01F79E5F"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_74A8B6408B0444639A9EB10BEB5DF8C3"
+            {
+            "Name" = "8:主输出 from LiberatorsClassLibrary (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_5824D1A29B274180AC1A9CBEC360751B"
+            "FileType" = "3:1"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_40A8F591_12C3_406C_A793_F906011290F2"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_9E84FB61EF514C638F9E1F4686210E12"
             {
             "Name" = "8:主输出 from LiberatorsClassLibrary (Active)"
             "Condition" = "8:"
@@ -743,11 +769,11 @@
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_B9723319_8419_4122_926A_D1766CF7FA90"
+            "Identifier" = "8:_AFB7AA42_A654_4AC9_8EF2_8C7E05A86E2C"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8DD180CA45FA4DB6BF2990335A385C9A"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_CF1FC6BB3560472B949785AD9F4C8462"
             {
             "Name" = "8:主输出 from LiberatorsClassLibrary (Active)"
             "Condition" = "8:"
@@ -757,7 +783,7 @@
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_C14304B7_1E77_4619_BA23_C376BC734A01"
+            "Identifier" = "8:_2B446899_9430_4B3C_B297_BEA73CDCA7F8"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -970,6 +996,26 @@
             "TargetName" = "8:en-GB.pak"
             "Tag" = "8:"
             "Folder" = "8:_AA1E991A896646BCA72EEBC00AAD20CF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_20B0E529940E4D2E86598F227FA6AAE1"
+            {
+            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\swiftshader\\libGLESv2.dll"
+            "TargetName" = "8:libGLESv2.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_DF3AF647FA7E46B7AA81853552CA4B1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1437,26 +1483,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_601318DEA6794C3BA01621B5245E14BD"
-            {
-            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\libGLESv2.dll"
-            "TargetName" = "8:libGLESv2.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_9077183535764C6496BE5AB1EC417160"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_60CE5BA9C7614357A79587172F0C1C60"
             {
             "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\v8_context_snapshot.bin"
@@ -1554,26 +1580,6 @@
             "TargetName" = "8:et.pak"
             "Tag" = "8:"
             "Folder" = "8:_AA1E991A896646BCA72EEBC00AAD20CF"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_795AF63FAE0A461688D5060DB26D2DFD"
-            {
-            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\libEGL.dll"
-            "TargetName" = "8:libEGL.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_9077183535764C6496BE5AB1EC417160"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1779,6 +1785,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B0DDD68C1A64B3C9006AFE2F0985E02"
+            {
+            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\plugins\\start.bat"
+            "TargetName" = "8:start.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_9077183535764C6496BE5AB1EC417160"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_90166356A90B47B39632744DF2B7F004"
             {
             "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\locales\\el.pak"
@@ -1856,6 +1882,26 @@
             "TargetName" = "8:ms.pak"
             "Tag" = "8:"
             "Folder" = "8:_AA1E991A896646BCA72EEBC00AAD20CF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A28037031593498C800F0005963144CC"
+            {
+            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\devtools_resources.pak"
+            "TargetName" = "8:devtools_resources.pak"
+            "Tag" = "8:"
+            "Folder" = "8:_9077183535764C6496BE5AB1EC417160"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2038,6 +2084,26 @@
             "TargetName" = "8:id.pak"
             "Tag" = "8:"
             "Folder" = "8:_AA1E991A896646BCA72EEBC00AAD20CF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B70B459633714E70B0D0DE9BDB3051B7"
+            {
+            "SourcePath" = "8:..\\Liberators\\bin\\x86\\Release\\swiftshader\\libEGL.dll"
+            "TargetName" = "8:libEGL.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_DF3AF647FA7E46B7AA81853552CA4B1E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2552,6 +2618,17 @@
                         {
                         }
                     }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DF3AF647FA7E46B7AA81853552CA4B1E"
+                    {
+                    "Name" = "8:swiftshader"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_48049296ED0A4930A005B4AD324920B4"
+                        "Folders"
+                        {
+                        }
+                    }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_F7A8DB49E9814DD4ACFA0FC11FA7330C"
                     {
                     "Name" = "8:plugins"
@@ -2615,7 +2692,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Liberators"
         "ProductCode" = "8:{515131E8-1643-42D5-BF90-A1BA2BEDEFF1}"
-        "PackageCode" = "8:{F1981311-FF3C-400F-A75A-77F055FBA468}"
+        "PackageCode" = "8:{94CF79DB-F40E-4210-B8A2-98474CF2BAF5}"
         "UpgradeCode" = "8:{08632B58-62FF-43A9-A146-D9A9A415E790}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -3259,7 +3336,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5824D1A29B274180AC1A9CBEC360751B"
             {
-            "SourcePath" = "8:..\\LiberatorsClassLibrary\\obj\\Debug\\LiberatorsClassLibrary.dll"
+            "SourcePath" = "8:..\\LiberatorsClassLibrary\\obj\\Release\\LiberatorsClassLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9077183535764C6496BE5AB1EC417160"
@@ -3287,7 +3364,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5BD2243F627446DF96FA841AB6170B0E"
             {
-            "SourcePath" = "8:..\\Liberators\\obj\\x86\\Debug\\Liberators.exe"
+            "SourcePath" = "8:..\\Liberators\\obj\\x86\\Release\\Liberators.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9077183535764C6496BE5AB1EC417160"

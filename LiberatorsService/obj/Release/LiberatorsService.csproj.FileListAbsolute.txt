@@ -1,0 +1,8 @@
+D:\vs\Liberators\LiberatorsService\bin\Release\LiberatorsService.exe.config
+D:\vs\Liberators\LiberatorsService\bin\Release\LiberatorsService.exe
+D:\vs\Liberators\LiberatorsService\bin\Release\LiberatorsService.pdb
+D:\vs\Liberators\LiberatorsService\obj\Release\LiberatorsService.ProjectInstaller.resources
+D:\vs\Liberators\LiberatorsService\obj\Release\LiberatorsService.csproj.GenerateResource.cache
+D:\vs\Liberators\LiberatorsService\obj\Release\LiberatorsService.csproj.CoreCompileInputs.cache
+D:\vs\Liberators\LiberatorsService\obj\Release\LiberatorsService.exe
+D:\vs\Liberators\LiberatorsService\obj\Release\LiberatorsService.pdb
