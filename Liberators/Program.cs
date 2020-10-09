@@ -12,11 +12,11 @@ namespace Liberators
         /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Liberators());
+            Application.Run(new Liberators(args));
 
             /*            Process instance = RunningInstance();
                         if (instance == null) {

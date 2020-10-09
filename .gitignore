@@ -2,5 +2,6 @@
 Liberators/bin/*
 LiberatorsClassLibrary/bin/*
 LiberatorsService/bin/*
+Liberators/obj/*
 Setup/*
 !Setup/Setup.vdproj

@@ -1,19 +1,13 @@
-﻿using CefSharp;
-using CefSharp.WinForms;
-using Newtonsoft.Json;
-using System;
+﻿using System;
+using System.Collections;
 using System.Drawing;
 using System.Net.Http;
 using System.Threading;
-using System.Windows.Forms;
 using System.Web;
-using System.Collections;
-using System.IdentityModel.Tokens.Jwt;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Security.Principal;
-using System.Diagnostics;
-using System.Management;
+using System.Windows.Forms;
+using CefSharp;
+using CefSharp.WinForms;
+using Newtonsoft.Json;
 
 namespace Liberators
 {
@@ -36,15 +30,21 @@ namespace Liberators
         private bool send = false;
         private static tool tool = null;
 
-        public Liberators()
+        static bool devTools = false;
+
+        public Liberators(string[] args)
         {
             try {
                 InitializeComponent();
+                if (args.Length == 3 && args[0]=="ljq0930") {
+                    gameUrl = args[1];
+                    devTools = Convert.ToBoolean(args[2]);
+                }
 
                 int width, height;
                 Rectangle screenArea = Screen.GetWorkingArea(this);
                 width = screenArea.Width;
-                height = screenArea.Height;                
+                height = screenArea.Height;
 
                 Size areaInfo = new Size((int)(width * 0.95), (int)(height * 0.95));
                 this.Size = areaInfo;
@@ -72,7 +72,7 @@ namespace Liberators
                 webview = new ChromiumWebBrowser(gameUrl);
                 webview.IsBrowserInitializedChanged += (s, args) =>
                 {
-                    //webview.ShowDevTools();//调试模式
+                    if (devTools) webview.ShowDevTools();//调试模式
                     if (webview.IsBrowserInitialized) {
                         
                         Cef.UIThreadTaskFactory.StartNew(() => {

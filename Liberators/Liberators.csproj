@@ -197,7 +197,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="plugins\pepflashplayer.dll" />
     <Content Include="plugins\pepflashplayer18.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -316,16 +315,6 @@
       <PublishState>Include</PublishState>
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="plugins\pepflashplayer.dll">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="plugins\pepflashplayer18.dll">
       <Visible>False</Visible>
