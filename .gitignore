@@ -1,7 +1,8 @@
 # phpstorm project files
 Liberators/bin/*
-LiberatorsClassLibrary/bin/*
-LiberatorsService/bin/*
 Liberators/obj/*
+LiberatorsClassLibrary/bin/*
+LiberatorsClassLibrary/obj/*
+LiberatorsService/bin/*
 Setup/*
 !Setup/Setup.vdproj
