@@ -16,5 +16,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <StartAction>Project</StartAction>
+    <StartArguments>
+    </StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>ljq0930 https://testliberators.movemama.com%3fmicend=1 test false</StartArguments>
   </PropertyGroup>
 </Project>

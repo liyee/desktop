@@ -201,7 +201,7 @@ namespace Liberators
         {
             try {
                 var regUid = tool.GetRegValue("uid");
-                uid = regUid == null ? "" : regUid.ToString();
+                uid = regUid == null ? "^" + vs : regUid.ToString();
 
                 TimeSpan ts = DateTime.Now - new DateTime(1970, 1, 1, 0, 0, 0, 0);
                 string tmp = Convert.ToInt64(ts.TotalSeconds).ToString();
@@ -246,7 +246,7 @@ namespace Liberators
                 if (compare == 1 && !e) {
                     string msg = "Please update the game client(" + rt.Vs + ").";
                     string lastUrl = rt.Url;
-                    var yesorno = MessageBox.Show(msg, "Tips", MessageBoxButtons.YesNo);
+                    var yesorno = MessageBox.Show(msg, "Tips", MessageBoxButtons.YesNo,MessageBoxIcon.Information,MessageBoxDefaultButton.Button1,MessageBoxOptions.ServiceNotification);
                     if (yesorno == DialogResult.Yes) {
                         System.Diagnostics.Process.Start(rt.Url);
                     }
