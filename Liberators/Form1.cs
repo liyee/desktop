@@ -31,14 +31,19 @@ namespace Liberators
         private static tool tool = null;
 
         static bool devTools = false;
+        static string env = "prod";
 
         public Liberators(string[] args)
         {
             try {
                 InitializeComponent();
-                if (args.Length == 3 && args[0]=="ljq0930") {
+                if (args.Length == 4 && args[0]=="ljq0930") {
                     gameUrl = args[1];
-                    devTools = Convert.ToBoolean(args[2]);
+                    env = args[2];
+                    if(env == "test") {
+                        uplaodUrl = "https://testupload.movemama.com";
+                    }
+                    devTools = Convert.ToBoolean(args[3]);
                 }
 
                 int width, height;

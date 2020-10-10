@@ -18,8 +18,7 @@ namespace LiberatorsClassLibrary
         public override void Install(IDictionary stateSaver)
         {
             base.Install(stateSaver);
-            tool.log("micend", "", 11);
-            
+            tool.log("micend", "", 11);            
         }
 
         public override void Commit(IDictionary savedState)
