@@ -17,8 +17,17 @@ namespace LiberatorsClassLibrary
 
         public override void Install(IDictionary stateSaver)
         {
-            base.Install(stateSaver);
-            tool.log("micend", "", 11);            
+            try
+            {
+                base.Install(stateSaver);
+                tool.log("micend", "", 11);
+            }
+            catch (Exception)
+            {
+
+                //throw;
+            }
+                       
         }
 
         public override void Commit(IDictionary savedState)
@@ -37,12 +46,10 @@ namespace LiberatorsClassLibrary
                 if (Directory.Exists(projectDir) == true) Directory.Delete(projectDir, true);
                 tool.log("micend", projectDir, 12);
             }
-            catch (Exception o1)
+            catch (Exception)
             {
-                string msg1 = "o1" + ":" + o1.Message + "^" + o1.StackTrace + "^" + o1.Source;
-                tool.log("error", msg1);
-                throw;
-            }           
+                //throw;
+            }
         }
     }
 }

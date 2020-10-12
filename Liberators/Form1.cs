@@ -32,6 +32,7 @@ namespace Liberators
 
         static bool devTools = false;
         static string env = "prod";
+        static bool netError = true;
 
         public Liberators(string[] args)
         {
@@ -66,7 +67,7 @@ namespace Liberators
             catch (Exception e1) {
                 string msg1 = "e1" + ":" + e1.Message + "^" + e1.StackTrace + "^" + e1.Source;
                 log("error", msg1);
-                throw;
+                if(env == "test") { throw; }                
             }
         }
 
@@ -96,7 +97,7 @@ namespace Liberators
             catch (Exception e2) {
                 string msg2 = "e2" + ":" + e2.Message + "^" + e2.StackTrace + "^" + e2.Source;
                 log("error", msg2);
-                throw;
+                if (env == "test") { throw; }
             }           
         }
 
@@ -137,7 +138,7 @@ namespace Liberators
             }
             catch (Exception) {
 
-                throw;
+                if (env == "test") { throw; }
             }            
         }
 
@@ -172,7 +173,7 @@ namespace Liberators
             catch (Exception e3) {
                 string msg3 = "e3" + ":" + e3.Message + "^" + e3.StackTrace + "^" + e3.Source;
                 log("error", msg3);
-                throw;
+                if (env == "test") { throw; }
             }
             
         }
@@ -192,8 +193,7 @@ namespace Liberators
                 checkoutVersion();
             }
             catch (Exception) {
-                //MessageBox.Show("e4" + ":" + e4.Message + "^" + e4.StackTrace + "^" + e4.Source);
-                throw;
+                if (env == "test") { throw; }
             }
         }
 
@@ -217,7 +217,13 @@ namespace Liberators
                 //}                
             }
             catch (Exception) {
-                throw;
+                if(netError == true) {
+                    netError = false;
+                    MessageBox.Show("Please check your network connection and restart the client!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.ServiceNotification);
+                    Application.Exit();
+                }
+                
+                if (env == "test") { throw; }
             }
         }
 
