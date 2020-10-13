@@ -2666,7 +2666,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Liberators"
         "ProductCode" = "8:{F18E8F25-0157-451D-B14B-212125A4B59B}"
-        "PackageCode" = "8:{FDAE8BD4-EA16-4CB6-920C-D695D524597C}"
+        "PackageCode" = "8:{7286C417-B584-4AAA-AE8B-A7DC0616DAFB}"
         "UpgradeCode" = "8:{08632B58-62FF-43A9-A146-D9A9A415E790}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
