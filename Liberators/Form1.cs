@@ -13,7 +13,7 @@ namespace Liberators
 {
     public partial class Liberators : Form
     {
-        static string vs = "1.0.1";
+        static string vs = "1.0.2";
         static string gameUrl = "https://liberators.mutantbox.com?micend=1";
         static string uplaodUrl = "https://upload.mutantbox.com";
 

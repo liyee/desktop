@@ -117,7 +117,7 @@ namespace LiberatorsClassLibrary
                 TimeSpan ts = DateTime.Now - new DateTime(1970, 1, 1, 0, 0, 0, 0);
                 string tmp = Convert.ToInt64(ts.TotalSeconds).ToString();
                 string mac = getMac();
-                string json = "{\"tag\":\"" + "1.0.1" + "\",\"typeid\":1,\"type\":\"" + type + "\",\"appid\":4,\"action\":\"start\",\"tmp\":" + tmp + ",\"data\":\"" + res + "\",\"uid\":\"" + uid + "^" + mac + "\",\"step\":" + step + "}";
+                string json = "{\"tag\":\"" + "1.0.2" + "\",\"typeid\":1,\"type\":\"" + type + "\",\"appid\":4,\"action\":\"start\",\"tmp\":" + tmp + ",\"data\":\"" + res + "\",\"uid\":\"" + uid + "^" + mac + "\",\"step\":" + step + "}";
 
                 var domain = uplaodUrl + "/push_platform.php?data=" + json;
                 var url = new Uri(domain);
